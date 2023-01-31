@@ -1,0 +1,6 @@
+<div *ngFor="let item of products">
+    <p *ngIf="item.stock" (click)="decrementStock(item)">
+        {{item.name}}: {{item.price}}$. Stock restant: {{item.stock}}.
+    </p>
+</div>
+

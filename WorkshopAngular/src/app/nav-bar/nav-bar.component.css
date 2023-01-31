@@ -1,0 +1,6 @@
+.navBar {
+    background-color: turquoise;
+    display: flex;
+    align-items: 'center';
+    gap: 'lem';
+}
